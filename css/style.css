@@ -1,0 +1,81 @@
+
+header {
+    background-color: rgb(7, 7, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+}
+
+header>div {
+    display: flex;
+}
+
+figure {
+    width: 60px;
+    margin-left: 50px;
+    margin-right: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+header>div>h2 {
+    color: white;
+}
+li {
+    display: inline;
+}
+
+a {
+    padding: 10px;
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+a:hover {
+    box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+    border: 1px solid #1D9AF2;
+    transform: translateX(-3px);
+}
+main {
+    /*background-color: burlywood;*/
+    background-image: url("golden.jpg") ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+button {
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:60px;
+    font-size:30px;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+button:active {
+    box-shadow: 0 3px 0 #00823f;
+    top: 3px;
+}
+
+.cadaNumero {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.3);
+    font-size: 50px;
+    color: rgb(20, 19, 19);
+    line-height: 118px;
+    text-align: center;
+    border: 2px solid white;
+}
